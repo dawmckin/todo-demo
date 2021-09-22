@@ -20,10 +20,12 @@ public class Task {
         this.taskName = taskName;
     }
 
-    public Task(String taskName, boolean isCompleted) {
+    public Task(String taskName, boolean isCompleted, String description, LocalDate dueDate) {
         super();
         this.taskName = taskName;
         this.isCompleted = isCompleted;
+        this.description = description;
+        this.dueDate = dueDate;
     }
 
     public int getId() {
